@@ -9,6 +9,11 @@
   background-color: #e6e6e6;
   line-height: 200%;
 }
+
+#batman2 {
+  line-height: 200%;
+}
+
 h1 {
   font-family: "Times New Roman";
   font-style: normal;
@@ -58,4 +63,8 @@ ul {
 }
 .icono {
   margin: 0 0.5rem;
+}
+
+body {
+  background-image: ;
 }
