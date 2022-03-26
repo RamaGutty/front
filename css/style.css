@@ -4,79 +4,109 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-size: 400;
+  font-weight: 400;
 }
 
 .header {
   background-color: #222222;
-  height: 100px;
   display: flex;
-  padding: 15px;
-  color: white;
   justify-content: space-between;
   align-items: center;
-  word-spacing: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-weight: 400;
+  color: white;
+  height: 20px;
+  font-size: 10px;
 }
 
-main {
+.ofertas {
+  margin: 70px;
+}
+
+.pais {
   display: flex;
-  padding: 20px;
-  justify-content: center;
-  background-color: rgb(248, 248, 248);
-  font-weight: 700;
+  margin: 50px;
+  justify-content: space-between;
+  width: 80px;
 }
 
-.delivery {
-  background-image: url("../img/delivery.png");
-  border-radius: 5px;
-  width: 490px;
-  height: 350px;
-  padding: 20px;
-  color: red;
-  font-size: 16px;
+.menu {
+  background-color: #f0a83e;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.podio {
-  background-image: url("../img/PizzaFalling.png");
+.logo {
+  margin: 30px;
+}
+
+.menus {
+  display: flex;
+}
+div.menu div {
+  display: flex;
+  margin: 20px;
+  color: white;
+  font-size: 13px;
+}
+
+.intro {
+  background-image: url(../img/bowl-and-pet.png);
+  display: flex;
+  height: 671px;
   background-repeat: no-repeat;
-  border-radius: 5px;
-  width: 490px;
-  height: 350px;
-  padding: 25px 30px 50px;
-  color: red;
+  background-size: contain;
+  justify-content: flex-end;
+  align-items: center;
+}
+.comederos {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.titulop {
-  align-self: center;
-  font-size: 24px;
-}
-
-span {
-  color: white;
-}
-
-ol {
-  color: black;
-  font-size: 20px;
-  line-height: 50px;
-}
-
-li {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.footer {
-  background-color: #222222;
-  color: white;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  line-height: 30px;
+  position: relative;
+  right: 100px;
+}
+
+div.comederos h2 {
+  background-color: white;
+  padding: 10px;
+  color: #3c2313;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+div.comederos p {
+  color: #3c2313;
+  font-size: 20px;
+}
+
+div.comederos button {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 15px 25px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pata {
+  height: 71px;
+  width: 67px;
+}
+
+div.general h1 {
+  color: #3c2313;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+div.general p {
+  color: #666666;
+  font-size: 20px;
 }
