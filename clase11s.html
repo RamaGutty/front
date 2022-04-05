@@ -85,15 +85,28 @@
       <div class="contactanos">
         <h3>Contáctanos</h3>
 
-        <div class="encuesta">
-          <p>Nombre y Apellido</p>
-        </div>
-        <div class="encuesta">
-          <p>Ingresá tu correo electrónico</p>
-        </div>
-        <div class="encuesta">
-          <p>Teléfono</p>
-        </div>
+        <form action="info.php" name="form" method="get">
+          <input placeholder="Nombre y Apellido" />
+
+          <input placeholder="Ingresá tu correo electrónico" />
+
+          <input placeholder="Teléfono" />
+
+          <select name="motivo" id="motivo" required>
+            <option value="">Seleccionar motivo</option>
+            <option value="amor">Me encanto la pagina</option>
+            <option value="odio">Queja</option>
+            <option value="duda">Por que si</option>
+          </select>
+          <textarea
+            name="detalle"
+            id="detalle"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            placeholder="Detalle"
+          ></textarea>
+        </form>
       </div>
 
       <div class="botones">

@@ -152,13 +152,20 @@ div.general p {
   align-items: center;
 }
 
+.contactanos form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contactanos h3 {
   color: #3c2313;
   font-weight: 700;
   font-size: 30px;
 }
 
-.encuesta {
+input,
+select {
   align-items: center;
   background-color: #3c2313;
   border-radius: 50px;
@@ -170,6 +177,11 @@ div.general p {
   margin: 10px;
   padding-left: 20px;
   width: 340px;
+  border: none;
+}
+
+textarea {
+  resize: none;
 }
 
 .botones {
